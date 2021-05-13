@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    height:200vh;
+}
+
+#main{
+    height:50vh;
+    width:50vh;
+    background-color:skyblue;
+    margin: 10vw 0 0 10vw;
+}
+
+#box-1{
+    height:75%;
+    width:75%;
+    background-color:blue;
+}
+
+#box-2{
+    height:75%;
+    width:75%;
+    background-color:purple;
+}
+
+#control-panel{
+    height:50vh;
+    width:50vh;
+    background-color:lightgray;
+    position:fixed;
+    right:25pt;
+    top:25pt;
+}
