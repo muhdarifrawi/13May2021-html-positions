@@ -17,8 +17,9 @@
         </div>
     </div>
     <div id="control-panel">
-        <h2>Box 1 Options</h2>
-        <div id="box-1-control" class="inner-frame">
+        <h2><span id="box-1-icon"></span> Box 1 Options</h2>
+        <div id="box-1-control">
+            <label>Position property:</label>
             <select name="position-types" id="position-types-1">
                 <option value="static" selected>Static</option>
                 <option value="relative">Relative</option>
@@ -26,24 +27,29 @@
                 <option value="fixed">Fixed</option>
                 <option value="sticky">Sticky</option>
             </select>
+            <div class="inner-frame">
+                <br>
+                <input type="checkbox" id="top-1-checkbox">
+                <label>Top:</label>
+                <input id="top-1" type="number" value="0">
+                <br>
+                <input type="checkbox" id="right-1-checkbox">
+                <label>Right:</label>
+                <input id="right-1" type="number" value="0">
+                <br>
+                <input type="checkbox" id="bottom-1-checkbox">
+                <label>Bottom:</label>
+                <input id="bottom-1" type="number" value="0">
+                <br>
+                <input type="checkbox" id="left-1-checkbox">
+                <label>Left:</label>
+                <input id="left-1" type="number" value="0">
+            </div>
 
-            <br>
-            <label>Top:</label>
-            <input id="top-1" type="number" value="0">
-            <br>
-            <label>Right:</label>
-            <input id="right-1" type="number" value="0">
-            <br>
-            <label>Bottom:</label>
-            <input id="bottom-1" type="number" value="0">
-            <br>
-            <label>Left:</label>
-            <input id="left-1" type="number" value="0">
-
-            <button id="box-1-button">Set</button>
         </div>
-        <h2>Box 2 Options</h2>
-        <div id="box-2-control" class="inner-frame">
+        <h2><span id="box-2-icon"></span> Box 2 Options</h2>
+        <div id="box-2-control">
+            <label>Position property:</label>
             <select name="position-types" id="position-types-2">
                 <option value="static" selected>Static</option>
                 <option value="relative">Relative</option>
@@ -52,19 +58,28 @@
                 <option value="sticky">Sticky</option>
             </select>
 
-            <br>
-            <label>Top:</label>
-            <input id="top-2" type="number" value="0">
-            <br>
-            <label>Right:</label>
-            <input id="right-2" type="number" value="0">
-            <br>
-            <label>Bottom:</label>
-            <input id="bottom-2" type="number" value="0">
-            <br>
-            <label>Left:</label>
-            <input id="left-2" type="number" value="0">
+            <div class="inner-frame">
+                <br>
+                <input type="checkbox" id="top-2-checkbox">
+                <label>Top:</label>
+                <input id="top-2" type="number" value="0">
+                <br>
+                <input type="checkbox" id="right-2-checkbox">
+                <label>Right:</label>
+                <input id="right-2" type="number" value="0">
+                <br>
+                <input type="checkbox" id="bottom-2-checkbox">
+                <label>Bottom:</label>
+                <input id="bottom-2" type="number" value="0">
+                <br>
+                <input type="checkbox" id="left-2-checkbox">
+                <label>Left:</label>
+                <input id="left-2" type="number" value="0">
+            </div>
+            
         </div>
+
+        <button id="set-button">Set</button>
     </div>
 <script src="script.js"></script>
 </body>

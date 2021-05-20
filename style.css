@@ -25,9 +25,33 @@ body{
 
 #control-panel{
     height:75vh;
-    width:50vh;
+    width:60vh;
     background-color:lightgray;
     position:fixed;
     right:25pt;
     top:25pt;
+}
+
+#box-1-icon{
+    display:inline-block;
+    background-color:blue;
+    height:17px;
+    width: 17px;
+}
+
+#box-2-icon{
+    display:inline-block;
+    background-color:purple;
+    height:17px;
+    width: 17px;
+}
+
+input[type=number]{
+    width:50px;
+}
+
+.inner-frame{
+    display:grid;
+    grid-template-columns: 4;
+    grid-template-rows: 3;
 }
